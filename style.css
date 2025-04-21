@@ -1,0 +1,370 @@
+
+body {
+  font-family: "Montserrat", sans-serif;
+  letter-spacing: 2px;
+  margin: 0;
+}
+
+li a {
+  text-decoration: none;
+  color: white;
+}
+
+#slogan h1 {
+  font-size: 100px;
+  margin: 0;
+  padding-bottom: 50px;
+  color: white;
+}
+
+#slogan button {
+  background-color: black;
+  color: white;
+  padding: 10px 40px;
+  letter-spacing: 1px;
+  font-size: 20px;
+  font-style: normal;
+  margin: 0;
+}
+
+.top-bar {
+  background-color: black;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  font-size: 12px;
+}
+
+.top-bar p {
+  padding-left: 50px;
+  padding-right: 50px;
+}
+
+#imgPortada {
+  background-image: url(IMAGENES/FONDO.png);
+  max-width: 100%;
+  height: 100vh;
+  background-repeat: no-repeat;
+  background-size: cover; 
+}
+
+header{
+  display: flex;
+  justify-content: space-between;
+}
+
+.logo img {
+  width: 200px;
+  margin: 0px 80px;
+}
+
+.menu {
+  display: flex;
+  margin: 0px 80px;
+  justify-content: center;
+  align-items: center;
+  gap: 80px;
+}
+
+nav ul {
+  display: flex;
+  gap: 80px;
+  list-style-type: none;
+}
+
+#Iconos {
+  margin: 0;
+}
+
+#Iconos img {
+  margin-left: 50px;
+ 
+}
+
+#slogan {
+  margin-left: 80px;
+}
+
+#slogan p{
+  font-size: 35px;
+  margin: 0;
+  color: white;
+}
+
+
+#organic {
+  margin: 0;
+  display: flex;
+  background-image: url(IMAGENES/FONDO\ 1.png);
+
+}
+
+.contenido {
+  align-items: center;
+  justify-items: center;
+}
+
+button {
+  padding: 10px 40px;
+  margin: 50px;
+  background-color: transparent;
+}
+.card img {
+  width: 200px;
+}
+
+.price {
+  font-weight: bold;
+}
+
+#organic .Tarjetas {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 100px;
+}
+
+.imagen img {
+  width: 700px;
+}
+
+#pearls {
+  display: flex;
+  justify-items: center;
+  justify-content: center;
+  gap: 200px;
+  box-shadow: 0 10px 20px -10px rgba(0, 0, 0, 0.15);
+}
+
+#Lovemade {
+  margin-top: 50px;
+  justify-content: center;
+  align-items: center;
+  justify-items: center;
+}
+
+#Lovemade .Tarjetas {
+  display: flex;
+}
+
+#Lovemade .card img {
+  width: 350px;
+}
+
+#Oferta {
+  margin-top: 50px;
+  padding: 100px 0 100px 0;
+  justify-content: center;
+  align-items: center;
+  justify-items: center;
+  background-image: url(IMAGENES/FONDO\ 2.png);
+}
+
+.Texto {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#Oferta h1 {
+  font-size: 100px;
+  margin: 0;
+  padding: 0;
+}
+
+#Oferta h2 {
+  font-size: 50px;
+  margin-right: 20px;
+}
+
+#Oferta button {
+  background-color: black;
+  color: white;
+}
+
+.footer {
+  background-color: #000;
+  color: #fff;
+  padding: 40px 20px;
+  font-family: 'Arial', sans-serif;
+}
+
+.footer-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  max-width: 1200px;
+  margin: auto;
+  gap: 30px;
+}
+
+.footer-section {
+  flex: 1 1 250px;
+  min-width: 220px;
+}
+
+.footer-section h2,
+.footer-section h3 {
+  font-size: 18px;
+  letter-spacing: 1.5px;
+  margin-bottom: 15px;
+}
+
+.footer-section p {
+  font-size: 14px;
+  margin-bottom: 15px;
+  line-height: 1.6;
+}
+
+.footer-section ul {
+  list-style: none;
+  padding: 0;
+}
+
+.footer-section li {
+  font-size: 14px;
+  margin-bottom: 10px;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.footer-section a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.footer-section a:hover {
+  color: #bbb;
+}
+
+.social-icons a img {
+  width: 24px;
+  height: 24px;
+  margin-right: 15px;
+}
+
+.footer-section li img {
+  width: 18px;
+  height: 18px;
+}
+
+.copyright {
+  margin-top: 20px;
+  font-size: 12px;
+  opacity: 0.7;
+}
+
+
+
+@media screen and (max-width: 768px) {
+
+  body {
+    overflow-x: hidden;
+  }
+
+
+  .top-bar {
+    display: none;
+    overflow-x: hidden;
+  }
+
+  .imgPortada {
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+  }
+
+
+  .logo img {
+    max-width: 150px;
+    height: auto;
+    margin: 0px 40px;
+    }
+  
+
+  nav {
+    display: none;
+    
+  }
+
+  #Iconos {
+    display: flex;
+  }
+
+  #Iconos img{
+    width: 20px;
+  }
+
+  #slogan {
+    width: 100vw;
+    padding-top: 150px; /* Para que no se monte con el header */
+    margin-left: 40px;
+   
+  }
+
+  #slogan p {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+  }
+
+  #slogan h1 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+    line-height: 1.2;
+  }
+
+  #slogan button {
+    padding: 12px 25px;
+    font-size: 1rem;
+    border: none;
+    background-color: black;
+    color: white;
+    cursor: pointer;
+    border-radius: 4px;
+  }
+
+
+  #organic,
+  #pearls, 
+  #Lovemade {
+    flex-direction: column;
+    background-image: none;
+  }
+
+  #organic .Tarjetas,
+  #pearls .Tarjetas {
+    grid-template-columns: 1fr;
+  }
+
+ .Tarjetas {
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+  }
+
+  .card {
+    max-width: 90%;
+    
+  }
+
+  #Lovemade .card img {
+    max-width: 100%;
+  }
+
+  #Oferta h1 {
+    font-size: 50px;
+  }
+
+  #Oferta h2 {
+    font-size: 30px;
+  }
+
+  .Texto {
+    flex-direction: column;
+  }
+
+  .imagen {
+    display: none;
+  }
+
+}
