@@ -367,4 +367,26 @@ button {
     display: none;
   }
 
+  .card {
+    opacity: 0;
+    transform: translateY(20px);
+    transition: opacity 0.6s ease-out, transform 0.6s ease-out;
+  }
+  
+  .card.visible {
+    opacity: 1;
+    transform: translateY(0);
+  }
+
+  #Oferta .Texto {
+    opacity: 0;
+    transform: translateX(-50px);
+    transition: opacity 0.8s ease-out, transform 0.8s ease-out;
+  }
+  
+  #Oferta .Texto.visible {
+    opacity: 1;
+    transform: translateX(0);
+  }
+
 }
